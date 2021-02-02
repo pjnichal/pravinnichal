@@ -1,13 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { MyNavbarcomp } from "./components/mynavbar/mynavbarcomp";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>Hello I am Pravin Nichal</h1>
-      <p>Currently Website is Under Development</p>
+      <MyNavbarcomp />
     </div>
   );
-}
+};
 
 export default App;
