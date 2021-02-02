@@ -7,7 +7,7 @@ import "./mynavbarstyle.css"
 export const MyNavbarcomp = () => {
     return (
         <>
-        <Navbar fixed="top" collapseOnSelect expand="md"  variant="dark" className="animate-navbar nav-theme justify-content-between">
+        <Navbar fixed="top" collapseOnSelect expand="md"  variant="dark" bg='dark' sticky="top"   className="animate-navbar nav-theme justify-content-between" >
   <Navbar.Brand href="#home">
       <img className="logo" src={Logo} alt="Pravin Nichal" height='50'></img>
   </Navbar.Brand>
