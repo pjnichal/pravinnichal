@@ -5,6 +5,7 @@ import Fade from "react-reveal/Fade";
 import { Parallax } from "react-parallax";
 import BG from "./assets/bg1.png";
 import Container from "react-bootstrap/Container";
+
 const App = () => {
   return (
     <div className="App" style={{ position: "relative" }}>
@@ -16,11 +17,13 @@ const App = () => {
           bgImageAlt="the dog"
           strength={-200}
         >
-          <Container className="container-box rounded">
-            <Fade duration={500}>
-              <About />
-            </Fade>
-          </Container>
+          <div>
+            <Container className="container-box rounded">
+              <Fade duration={500}>
+                <About />
+              </Fade>
+            </Container>
+          </div>
         </Parallax>
       </div>
     </div>

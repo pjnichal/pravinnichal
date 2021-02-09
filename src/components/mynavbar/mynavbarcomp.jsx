@@ -14,12 +14,7 @@ export const MyNavbarcomp = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link href="#features">Home</Nav.Link>
-      <Nav.Link href="#about">About</Nav.Link>
-      <Nav.Link href="#skills">Skills</Nav.Link>
-      <Nav.Link href="#project">Project</Nav.Link>
-      <Nav.Link href="#education">Education</Nav.Link>
-      <Nav.Link href="#contact">Contact</Nav.Link>
+      {/*Paste Here */}
     </Nav>
     
   </Navbar.Collapse>
@@ -27,3 +22,12 @@ export const MyNavbarcomp = () => {
         </>
     );
 }
+{/*
+<Nav.Link href="#features">Home</Nav.Link>
+      <Nav.Link href="#about">About</Nav.Link>
+      <Nav.Link href="#skills">Skills</Nav.Link>
+      <Nav.Link href="#project">Project</Nav.Link>
+      <Nav.Link href="#education">Education</Nav.Link>
+      <Nav.Link href="#contact">Contact</Nav.Link>
+    
+    */}
