@@ -24,10 +24,10 @@ export const About = () => {
                     <Col xs={12} md={6}>
                     <Row className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Pravin Nichal</strong>
-                <br />A passionate programmer I am a Full Stack Android Developer. I create App using Flutter and native app using Java and Xml 
+                <br />A passionate programmer I am a learning Full Stack Android Developer. I create App using Flutter and native app using Java and Xml 
                 <br />I am getting started with web development
                 <br />I have done my diploma in computer engineering <br /> Now i am pursing B.E in Information Technology
-                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                <br />Apart from programming i love to play games i love to play VALORANT.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
               
