@@ -12,12 +12,12 @@ export const MyNavbarcomp = () => {
       <img className="logo" src={Logo} alt="Pravin Nichal" height='50'></img>
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
+ {/*<Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
-      {/*Paste Here */}
+      paste here
     </Nav>
     
-  </Navbar.Collapse>
+  </Navbar.Collapse> */} 
 </Navbar>
         </>
     );
