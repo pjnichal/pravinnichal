@@ -33,9 +33,9 @@ export const About = () => {
                 <Col className="d-flex justify-content-center flex-wrap">
               
                   <div>
-                    <a href="#contact">
+                    <a href="https://drive.google.com/file/d/1broYDmbB8Uoo3BxyqQq6C1NwLgUOwqzb/view?usp=sharing">
                       <Button className="m-2" variant="outline-primary">
-                        Let's talk
+                       CV
                       </Button>
                     </a>
                   </div>
