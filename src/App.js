@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
-
+import NavBar from "./NavBar/NavBar";
+import MainContent from "./MainContent/MainContent";
+import Footer from "./Footer/Footer";
+import React, { useState } from "react";
+import Main from "./Main/Main";
 function App() {
+  const [isOpen, setOpen] = useState(false);
+  function openCloseNav() {
+    setOpen(!isOpen);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="">
+      <header className="sticky top-0">
+        <NavBar openCloseNav={openCloseNav} className="	" />
       </header>
+      <Main />
     </div>
   );
 }
 
 export default App;
+{
+  /* <div></div>
+<div className="z-0">
+  <header className="sticky top-0">
+    <NavBar openCloseNav={openCloseNav} className="	" />
+  </header>
+  <main className="">
+    <MainContent />
+  </main>
+  <footer className="container mx-auto">
+    <Footer />
+  </footer>
+</div> */
+}
