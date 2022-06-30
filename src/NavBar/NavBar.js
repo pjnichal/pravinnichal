@@ -3,7 +3,7 @@ import React from "react";
 export default function NavBar({ openCloseNav }) {
   return (
     <div className="bg-offWhite  w-full p-5 sticky top-0  opacity-100 overflow-hidden	font-inter font-semibold text-textcolor	">
-      pravinnichal.in
+      <a href="https://pravinnichal.in/"> pravinnichal.in</a>
     </div>
   );
 }

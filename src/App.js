@@ -1,6 +1,5 @@
 import NavBar from "./NavBar/NavBar";
-import MainContent from "./MainContent/MainContent";
-import Footer from "./Footer/Footer";
+
 import React, { useState } from "react";
 import Main from "./Main/Main";
 function App() {
@@ -19,6 +18,7 @@ function App() {
 }
 
 export default App;
+// eslint-disable-next-line 
 {
   /* <div></div>
 <div className="z-0">
