@@ -57,7 +57,6 @@ const Main = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                {" "}
                 <span className="font-normal text-xs text-black-600  bg-green-200 p-1 rounded-md">
                   🔗 Complition Letter
                 </span>
@@ -77,10 +76,9 @@ const Main = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                {" "}
                 <span className="font-normal text-xs text-black-600    bg-green-200 p-1 rounded-md">
                   🔗 Complition Letter
-                </span>{" "}
+                </span>
               </a>
             </div>
           </div>
@@ -118,7 +116,7 @@ const Main = () => {
               </div>
               <div className="pt-1 pb-1 ">
                 <a
-                  href="https://drive.google.com/file/d/1Hj32sSZn2Yhz6dqEgcPaaN0uVOUeF9hp/view"
+                  href="https://play.google.com/store/apps/details?id=com.pravin.yashlalit.msbtestudymaterial&hl=en_IN&gl=US"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
