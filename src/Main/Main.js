@@ -7,18 +7,8 @@ const Main = () => {
         Hi 👋 I'm Pravin!
       </div>
       <div className="pt-5 text-2xl font-semibold text-textcolor font-inter">
-        I'm a B.E student at SIES Graduate School of Technology and also a
-        software developer intern at &nbsp;
-        <span className="">
-          <a
-            href="https://grow90.org/"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="underline decoration-2 underline-offset-1 text-gray-500"
-          >
-            Grow90
-          </a>
-        </span>
+        Hello! As a IT engineering graduate fascinated by software
+        craftsmanship, I'm excited to share my portfolio.
       </div>
       <div className="text-md font-inter text-textcolor py-5 space-y-2 ">
         <div>🎓 IT @ SIES GST</div>
@@ -158,7 +148,7 @@ const Main = () => {
 
               <div className="pt-1 ">
                 <a
-                  href="https://www.linkedin.com/posts/pravin-nichal-93080b1b4_flutter-iot-raspberrypi-activity-6830500834908938241-Ad1Y?utm_source=linkedin_share&utm_medium=member_desktop_web"
+                  href="https://www.linkedin.com/posts/pravinnichal_flutter-iot-raspberrypi-activity-6830500834908938241-LtAR"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -234,7 +224,7 @@ const Main = () => {
             </span>
           </a>
           <a
-            href="https://drive.google.com/file/d/1OE-gMSXwJuGBMZ5ITPBrC9c0cuJL4w6c/view?usp=sharing"
+            href="https://drive.google.com/file/d/1SmntCNiPaGNLwo56B13xvZmKhAOT6muf/view?usp=sharing"
             rel="noopener noreferrer"
             target="_blank"
           >
